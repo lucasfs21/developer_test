@@ -1,0 +1,38 @@
+<div class="text-center">
+    <h1>Tipo de carro e motor</h1>
+    <p><%= link_to "Novo carro/motor", new_engine_path, class: 'btn btn-success' %><p>
+</div>
+<div style="margin:auto" class="col-md-12">
+    <div class="card shadow md-12">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">&nbsp</h6>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <td>Marca</td>
+                <td>Modelo</td>
+                <td>Cor</td>
+                <td>Cilindros</td>
+                <td>Posicionamento dos Cilindros</td>
+                <td>Litragem</td>
+                <td>Observação</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><%= brand(@engine.car) %></p></td>
+                    <td><%= model(@engine.car) %></p></td>
+                    <td><%= color(@engine.car) %></p></td>
+                    <td><%= @engine.cylinders %></td>
+                    <td><%= cylinder_positioning(@engine) %></td>
+                    <td><%= @engine.liters %></td>
+                    <td><%= notes(@engine) %></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="text-center">
+        <div class="clearfix">&nbsp;</div>
+        <%= link_to "Voltar", engines_path, class: 'btn btn-secondary' %>
+    <div>
+</div>
+        

@@ -1,0 +1,41 @@
+<div class="text-center">
+    <h1>Tipos de carros e seus motores</h1>
+    <p><%= link_to "Novo carro/motor", new_engine_path, class: 'btn btn-success' %><p>
+</div>
+<div style="margin:auto" class="col-md-12">
+    <div class="card shadow md-12">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Carro</h6>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <td>Marca</td>
+                <td>Modelo</td>
+                <td>Cor</td>
+                <td>Cilindros</td>
+                <td>Posicionamento dos Cilindros</td>
+                <td>Litragem</td>
+                <td>Observação</td>
+                <td>Opções</td>
+            </thead>
+            <tbody>
+                <% @engines.each do |engine| %>
+                    <tr>
+                        <td><%= brand(engine.car) %></p></td>
+                        <td><%= model(engine.car) %></p></td>
+                        <td><%= color(engine.car) %></p></td>
+                        <td><%= engine.cylinders %></td>
+                        <td><%= cylinder_positioning(engine) %></td>
+                        <td><%= engine.liters %></td>
+                        <td><%= notes(engine) %></td>
+                        <td>
+                            <%= link_to "Editar", edit_engine_path(engine.id) %>
+                            <%= link_to "Excluir", engine_path(engine.id), method: :delete, 
+                                data: {confirm: "Deseja excluir o carro #{engine.car.model}?"} %>     
+                        </td>                    
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </div>
+</div>
