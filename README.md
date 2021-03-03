@@ -18,7 +18,7 @@ Utilizei o JQuery para dar o aspecto de "etapas" em um único formulário (prime
 
 Utilizei o Bootstrap pra dar uma pouco de estilo.
 
-Utilizei o Bootstrap-Growl para mostrar as notificaçẽos ao realizar um CRUD.
+Utilizei o Bootstrap-Growl para mostrar as notificações ao realizar um CRUD.
 
 Segue mais fotos da aplicação
 
