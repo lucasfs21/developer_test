@@ -39,5 +39,5 @@ Segue mais fotos da aplicação
 ![Tela de exclusão parte 2](https://github.com/lucasfs21/developer_test/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-08-17.png)
 
 #### Detalhes
-![Tela de detalhes](https://github.com/lucasfs21/developer_test/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-07-41.png)
+![Tela de detalhes](https://github.com/lucasfs21/developer_test-exercise_1/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-12-41.png)
 
