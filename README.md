@@ -16,7 +16,7 @@ E por último eu criei os controllers, views e fiz associações nos models.
 
 Utilizei o JQuery para dar o aspecto de "etapas" em um único formulário (primeiro digita os dados do carro e depois os dados do motor).
 
-Utilizei o Bootstrap pra deixar dar uma pouco de estilo.
+Utilizei o Bootstrap pra dar uma pouco de estilo.
 
 Utilizei o Bootstrap-Growl para mostrar as notificaçẽos ao realizar um CRUD.
 
