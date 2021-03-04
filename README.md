@@ -9,7 +9,7 @@
 ![Código da migrate de "carros"](https://github.com/lucasfs21/developer_test/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-00-56.png)
 ![Código da migrate de "motores"](https://github.com/lucasfs21/developer_test/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-01-16.png)
 
-#### 3º Após criar as entidades no banco de dados PostgreSQL, eu criei um seed para alimentar o mesmo com os dados da API.
+#### 3º Após criar as entidades no banco de dados SQLite, eu criei um seed para alimentar o mesmo com os dados da API.
 ![Código do seed para alimentar o banco de dados](https://github.com/lucasfs21/developer_test/blob/master/app/assets/images/Screenshot%20from%202021-03-03%2019-04-15.png)
 
 E por último eu criei os controllers, views e fiz associações nos models.
